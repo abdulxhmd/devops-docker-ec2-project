@@ -32,12 +32,12 @@ Static HTML Page
 
 ## ⚙️ Setup and Execution Steps
 
-### 1. Launch EC2 Instance
+###1. Launch EC2 Instance
 - Platform: AWS EC2
 - OS: Ubuntu
 - Instance Type: t3.micro
 
-### 2. Configure Security Group
+###2. Configure Security Group
 Allow the following inbound rules:
 
 | Port | Purpose |
@@ -47,7 +47,7 @@ Allow the following inbound rules:
 
 ---
 
-### 3. Connect via SSH
+###3. Connect via SSH
 ```bash
 ssh -i devops-key.pem ubuntu@<public-ip>
 
