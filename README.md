@@ -166,6 +166,24 @@ docker logs myapp
 
 ---
 
+### Evidence Screenshots
+## 📊 Evidence
+
+### Docker Containers
+![Docker Containers](images/docker-ps.png)
+
+### Docker Images
+![Docker Images](images/docker-images.png)
+
+### Local Access (Server)
+![Local Access](images/local-access.png)
+
+### Public Access (Browser)
+![Public Access](images/public-access.png)
+
+### Container Logs (Optional)
+![Logs](images/docker-logs.png)
+
 ## 🌐 Networking Explanation
 
 The application runs inside a Docker container on port **80**. This port is mapped to port **8080** on the EC2 host using Docker port mapping (`-p 8080:80`).
